@@ -1,0 +1,37 @@
+{
+  "name": "restify-mw",
+  "version": "0.0.1",
+  "description": "Custom Middleware for node-restify",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhoriuchi/restify-mw.git"
+  },
+  "keywords": [
+    "restify",
+    "middleware",
+    "static",
+    "route"
+  ],
+  "author": "Branden Horiuchi <bhoriuchi@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bhoriuchi/restify-mw",
+  "devDependencies": {
+  	"restify": "~4.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/bhoriuchi/restify-mw/issues"
+  },
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "escape-regexp-component": "^1.0.2",
+    "mime": "^1.2.11",
+    "verror": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "directories": {
+    "example": "example"
+  }
+}
